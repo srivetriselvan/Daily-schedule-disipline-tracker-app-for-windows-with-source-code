@@ -1,62 +1,16 @@
-# Daily Discipline Tracker 🔥
+# React + Vite
 
-A standalone desktop productivity tracker built using React, Vite, and Electron.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This app helps track:
-- Daily study sessions
-- Morning runs
-- Skill sessions
-- Sleep consistency
-- Daily comments and progress
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-# Features
+## React Compiler
 
-✅ Date-wise tracking  
-✅ Auto-saving progress  
-✅ Interactive task system  
-✅ Local storage persistence  
-✅ Standalone desktop application  
-✅ Offline support  
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-# Tech Stack
-
-- React
-- Vite
-- Electron
-- JavaScript
-- localStorage
-
----
-
-# How This App Was Built
-
-This project started as a simple productivity tracking idea and evolved into a fully installable desktop application.
-
-Development process included:
-- Building the UI in React
-- Managing app state with React hooks
-- Implementing localStorage persistence
-- Converting the app into a desktop application using Electron
-- Packaging the application into a standalone Windows installer
-
-Several production issues were solved during development including:
-- Electron white screen issues
-- Vite asset loading paths
-- Electron packaging configuration
-- Standalone build debugging
-
----
-
-# Installation
-
-Download the latest installer from the Releases section.
-
----
-
-# Developer
-
-Built by Sri 🔥
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
